@@ -117,10 +117,10 @@ include('includes/navbar.php');
                             <td><?php echo $row['pro_name'] ?></td>
                             <td><?php echo $row['fdtype'] ?></td>
                             <td><?php echo $row['descrip'] ?></td>
-                            <td><?php echo $row['images'] ?></td>
+                            <td><?php echo '<img src="upload/'.$row['images'].' " width="200px;"  height="150px;"  alt="images" >'?> </td>
                             <td><?php echo $row['price'] ?></td>
 
-                            <!-- <td><?php echo '<img src="upload/'.$row['images'].' " width="10px;"  height="10px;"  alt="images" >'?> </td>  -->
+                           
  
                             <td>
                               <form action="food_edit.php" method="POST">
